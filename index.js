@@ -1,5 +1,6 @@
 var katzDeliLine = []
 
+
 function takeANumber(katzDeliLine, name){
 // for (let i = 0; i < katzDeliLine.length; i++)
 katzDeliLine.push(name) //get name in line done ASAP
