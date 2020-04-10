@@ -11,7 +11,6 @@ while ( i < katzDeliLine.length){ // will be true
 }
 
 
-
 function nowServing(katzDeliLine){
   if(katzDeliLine.length === 0){ // scan line ASAP
     return "There is nobody waiting to be served!"
@@ -30,6 +29,6 @@ function currentLine(katzDeliLine){
     inline.push(' ' + (i + 1) + '. ' + katzDeliLine[i]) //pushes in new array properly with format + #
     i++
   }
-  return ('The line is currently:' + inline) 
+  return ('The line is currently:' + inline)
     }
 }
