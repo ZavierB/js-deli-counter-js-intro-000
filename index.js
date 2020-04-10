@@ -24,12 +24,12 @@ function currentLine(katzDeliLine){
   if(katzDeliLine.length === 0){ // scan line ASAP
     return "The line is currently empty."
 }else{
-  const inline = []
-  var i = 0
+  const inline = [] //have to create new array for 1. 'string', 2. 'string', 3. 'string'
+  var i = 0 //counter/initializer
   while(i < katzDeliLine.length){
-    inline.push(' ' + (i + 1) + '. ' + katzDeliLine[i])
+    inline.push(' ' + (i + 1) + '. ' + katzDeliLine[i]) //pushes in new array properly with format + #
     i++
   }
-  return ('The line is currently:' + inline)
+  return ('The line is currently:' + inline) 
     }
 }
